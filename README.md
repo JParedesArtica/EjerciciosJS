@@ -12,10 +12,10 @@ Cada día, resuelvo 2 ejercicios de programación en JavaScript de la lista de 1
 
 
 ## Tabla de Contenidos
+Exercises
+  01-FizzBuzz
+  02-
 
-01-Ejercicio 
-02-Ejercicio 
-...
 
 ## Instrucciones de Ejecución
 
