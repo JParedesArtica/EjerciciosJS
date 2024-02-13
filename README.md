@@ -1,6 +1,6 @@
 # 101 Ejercicios de Programación en JavaScript
 
-Este repositorio contiene mis soluciones a los 101 ejercicios de programación en JavaScript del sitio web [Retos de Programación](https://retosdeprogramacion.com/ejercicios/) de MoureDev.
+Este repositorio contiene mis soluciones a los 101 ejercicios de programación en JavaScript del sitio web [Retos de Programación](https://retosdeprogramacion.com/ejercicios/) de [MoureDev](https://github.com/mouredev).
 
 ## Estado del Proyecto
 
