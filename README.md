@@ -11,10 +11,20 @@ En curso
 Cada día, resuelvo 2 ejercicios de programación en JavaScript de la lista de 101 para mejorar mis habilidades y mantenerme activo en la resolución de problemas.
 
 
-## Tabla de Contenidos
+## Estructura de Carpetas
 Exercises
  - 01-FizzBuzz
- - 02-
+ - 02-Anagrama
+ - 03-Fibonacci
+ - 04-NumeroPrimo
+ - 05-AreaPoligono
+ - 07-InvertString
+ - 08-ContandoPalabras
+ - 09-NumeroBinario
+ - 10-Codigo Morse
+README.md
+actualizar-registro.js
+registro-diario.md
 
 
 ## Instrucciones de Ejecución
