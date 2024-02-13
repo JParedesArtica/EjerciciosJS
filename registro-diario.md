@@ -14,7 +14,7 @@
 ### Día 2024-02-11
 
 - [X] Resolví Ejercicio 05.
-- [] Resolví Ejercicio 06.
+- [ ] Resolví Ejercicio 06.
 
 ### Día 2024-02-12
 
