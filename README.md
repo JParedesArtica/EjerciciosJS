@@ -22,10 +22,9 @@ Exercises
  - 08-ContandoPalabras
  - 09-NumeroBinario
  - 10-Codigo Morse
-README.md
-actualizar-registro.js
-registro-diario.md
 
+## Registro Diario
+Consulta el [registro-diario.md](registro-diario.md) para ver mis actualizaciones diarias y los ejercicios resueltos.
 
 ## Instrucciones de Ejecución
 
