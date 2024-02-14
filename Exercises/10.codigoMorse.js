@@ -24,7 +24,10 @@ const morseCode = {
   // Función para convertir texto a código Morse
 
   function textoAMorse(texto) {
-    return texto.toUpperCase().split('').map(char => morseCode[char] || char).join(' ');
+    let result = texto.toUpperCase().split('').map(char => (
+      morseCode[char] || char)).join(' ');
+
+    return result.replace(/ {3}/g, '  ');
   }
   
   // Función para convertir código Morse a texto
@@ -33,12 +36,29 @@ const morseCode = {
     return morse.split(' ').map(code => Object.keys(morseCode).find(key => morseCode[key] === code) || ' ').join('');
   }
   
-  // Ejemplo de uso
+  // Detección de que tipo se trata
 
-  const textoOriginal = "Hola, ¿cómo estás?";
-  const morse = textoAMorse(textoOriginal);
-  const textoConvertido = morseATexto(morse);
+  const esCodigoMorse = (texto) => {
+
+    // Verifica si la cadena contiene solo caracteres permitidos en código Morse
+
+    const caracteresPermitidosMorse = /^[.-\s]+$/;
+    return caracteresPermitidosMorse.test(texto);
+  };
   
-  console.log('Texto Original:', textoOriginal);
-  console.log('Morse:', morse);
-  console.log('Texto Convertido:', textoConvertido);
+  function convertir(texto) {
+    // Determina si es código Morse o texto normal
+    if (esCodigoMorse(texto)) {
+      return morseATexto(texto);
+    } else {
+      return textoAMorse(texto);
+    }
+  }
+  
+  // Ejemplo de uso
+  const entrada1 = "Hola, ¿cómo estás?";
+  const entrada2 = ".... --- .-.. .- --..--  .-.-.. -.-. ---. -- ---  . ... - .-.- ... ..--..";
+  
+  console.log(convertir(entrada1)); // Convertirá a código Morse
+  console.log(convertir(entrada2)); // Convertirá a texto normal
+ 
