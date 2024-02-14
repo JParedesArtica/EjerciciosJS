@@ -1,6 +1,6 @@
 # 101 Ejercicios de Programación en JavaScript
 
-Este repositorio contiene mis soluciones a los 101 ejercicios de programación en JavaScript del sitio web "Retos de Programación" de MoureDev.
+Este repositorio contiene mis soluciones a los 101 ejercicios de programación en JavaScript del sitio web [Retos de Programación](https://retosdeprogramacion.com/ejercicios/) de [MoureDev](https://moure.dev/).
 
 ## Estado del Proyecto
 
@@ -11,11 +11,20 @@ En curso
 Cada día, resuelvo 2 ejercicios de programación en JavaScript de la lista de 101 para mejorar mis habilidades y mantenerme activo en la resolución de problemas.
 
 
-## Tabla de Contenidos
+## Estructura de Carpetas
+Exercises
+ - 01-FizzBuzz
+ - 02-Anagrama
+ - 03-Fibonacci
+ - 04-NumeroPrimo
+ - 05-AreaPoligono
+ - 07-InvertString
+ - 08-ContandoPalabras
+ - 09-NumeroBinario
+ - 10-Codigo Morse
 
-01-Ejercicio 
-02-Ejercicio 
-...
+## Registro Diario
+Consulta el [registro-diario.md](registro-diario.md) para ver mis actualizaciones diarias y los ejercicios resueltos.
 
 ## Instrucciones de Ejecución
 
