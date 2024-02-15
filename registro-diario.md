@@ -26,3 +26,12 @@
 - [X] Resolví Ejercicio 09-NumeroBinario.
 - [X] Resolví Ejercicio 10-CodigoMorse.
 
+### Día 2024-02-14
+
+- [X] Mejore el código del ejercicio 10.
+
+
+### Día 2024-02-15
+
+- [ ] Resolví Ejercicio 11.
+- [X] Resolví Ejercicio 12.
