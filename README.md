@@ -21,7 +21,7 @@ Exercises
  - 07-InvertString
  - 08-ContandoPalabras
  - 09-NumeroBinario
- - 10-Codigo Morse
+ - 10-CodigoMorse
  - 12-ComparaciónLetras
 
 ## Registro Diario
