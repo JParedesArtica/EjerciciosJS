@@ -22,6 +22,7 @@ Exercises
  - 08-ContandoPalabras
  - 09-NumeroBinario
  - 10-Codigo Morse
+ - 12-ComparaciónLetras
 
 ## Registro Diario
 Consulta el [registro-diario.md](registro-diario.md) para ver mis actualizaciones diarias y los ejercicios resueltos.
